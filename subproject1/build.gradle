@@ -9,4 +9,4 @@ buildscript {
 
 apply plugin: 'com.adtran.scala-multiversion-plugin'
 
-task dummy()
+task dummy() { doLast { println it } }

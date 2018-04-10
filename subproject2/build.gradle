@@ -1,1 +1,1 @@
-task dummy()
+task dummy() { doLast { println it } }
